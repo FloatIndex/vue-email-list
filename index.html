@@ -13,6 +13,18 @@
     
     <div id="app">
 
+        <header>
+            <h1>mailing list</h1>
+        </header>
+        
+        <div class="container">
+            <ol>
+                <li v-for="email in emailAddresses">
+                    {{email}}
+                </li>
+            </ol>
+        </div>
+        
     </div>
 
 

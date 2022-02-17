@@ -3,3 +3,42 @@
     border: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #B3D89C;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #70AF46;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 70px);
+}
+
+ol {
+    width: 50%;
+    margin: auto;
+    padding: 30px 0;
+    padding-left: 60px;
+    border: 1px solid #4D7298;
+    box-shadow: 2px 2px 7px #293D51;
+}
+
+ol li {
+    line-height: 40px;
+    padding-left: 15px;
+    color: #4D7298;
+}
